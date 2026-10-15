@@ -5,6 +5,14 @@ const DeletedUserTrial = require("../models/deletedUserTrial");
 const crypto = require("crypto");
 const jwt = require("jsonwebtoken");
 const { sendOTP } = require("../config/msg91");
+const {
+  generateSecureOTP,
+  hashOTP,
+  verifyOTPHash,
+  calculateExpiry,
+  checkResendCooldown,
+  getMaxVerificationAttempts,
+} = require("../services/otpService");
 const { OAuth2Client } = require("google-auth-library");
 const googleClient = new OAuth2Client(process.env.GOOGLE_CLIENT_ID);
 
@@ -108,18 +116,19 @@ exports.registerWithPhone = async (req, res) => {
   }
 };
 
-// Register / login with email using SMTP OTP
+// Register / login with email using MSG91 Email Connections OTP
 exports.registerWithEmail = async (req, res) => {
   try {
-    const email = req.body.email || req.body.email_id;
+    const rawEmail = req.body.email || req.body.email_id;
 
-    if (!email) {
+    if (!rawEmail) {
       return res.status(400).json({
         success: false,
         message: "Email is required",
       });
     }
 
+    const email = String(rawEmail).trim().toLowerCase();
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(email)) {
       return res.status(400).json({
@@ -130,19 +139,51 @@ exports.registerWithEmail = async (req, res) => {
 
     let user = await User.findOne({
       $or: [{ email }, { email_id: email }],
-    });
+    }).select("+emailOtp +emailOtpExpire +emailOtpAttempts +emailOtpLastSentAt");
 
-    const otp = Math.floor(100000 + Math.random() * 900000).toString(); // Generate 6-digit OTP
-    const otpExpire = new Date(Date.now() + 10 * 60 * 1000);
+    // Enforce resend cooldown if user exists
+    if (user && user.emailOtpLastSentAt) {
+      const cooldownCheck = checkResendCooldown(user.emailOtpLastSentAt);
+      if (cooldownCheck.inCooldown) {
+        return res.status(429).json({
+          success: false,
+          message: `Please wait ${cooldownCheck.secondsRemaining} second(s) before requesting a new OTP.`,
+        });
+      }
+    }
 
+    // Generate cryptographically secure 6-digit OTP
+    const otp = generateSecureOTP();
+    const hashedOtp = hashOTP(otp);
+    const otpExpire = calculateExpiry();
+    const recipientName = user ? user.name || user.user_name : email.split("@")[0];
+
+    // Dispatch OTP via MSG91 Email Connections HTTPS API
+    const sendResult = await sendEmailOTP(
+      email,
+      otp,
+      recipientName,
+      Number(process.env.OTP_EXPIRY_MINUTES) || 5
+    );
+
+    if (!sendResult.success) {
+      return res.status(502).json({
+        success: false,
+        message: sendResult.message || "Failed to send email verification OTP. Please try again.",
+      });
+    }
+
+    // Persist hashed OTP only after delivery succeeded
     if (!user) {
       user = await User.create({
         email,
         email_id: email,
         name: email.split("@")[0],
         user_name: email.split("@")[0],
-        emailOtp: otp,
+        emailOtp: hashedOtp,
         emailOtpExpire: otpExpire,
+        emailOtpAttempts: 0,
+        emailOtpLastSentAt: new Date(),
         is_email_verified: false,
         isEmailVerified: false,
         freeTrialActive: true,
@@ -156,22 +197,14 @@ exports.registerWithEmail = async (req, res) => {
           },
         ],
       });
-      console.log("New user created with email, OTP generated");
+      console.log("New user created with email, OTP securely dispatched and hashed");
     } else {
-      user.emailOtp = otp;
+      user.emailOtp = hashedOtp;
       user.emailOtpExpire = otpExpire;
-      console.log("Existing user found with email, OTP regenerated");
+      user.emailOtpAttempts = 0;
+      user.emailOtpLastSentAt = new Date();
       await user.save();
-    }
-
-    // Dispatch OTP via SMTP
-    const sendResult = await sendEmailOTP(email, otp, user.name || user.user_name);
-
-    if (!sendResult.success) {
-      return res.status(500).json({
-        success: false,
-        message: "Failed to send email verification OTP. Please try again.",
-      });
+      console.log("Existing user found with email, new OTP securely dispatched and hashed");
     }
 
     res.status(200).json({
@@ -228,21 +261,26 @@ exports.registerUser = async (req, res) => {
 // Resend OTP
 exports.resendOtp = async (req, res) => {
   try {
-    const mobile_number = req.body.mobile_number || req.body.phoneNumber;
-    const email = req.body.email || req.body.email_id;
+    const rawMobile = req.body.mobile_number || req.body.phoneNumber;
+    const rawEmail = req.body.email || req.body.email_id;
 
-    if (!mobile_number && !email) {
+    if (!rawMobile && !rawEmail) {
       return res.status(400).json({
         success: false,
         message: "mobile_number or email is required",
       });
     }
 
+    const mobile_number = rawMobile ? String(rawMobile).trim() : null;
+    const email = rawEmail ? String(rawEmail).trim().toLowerCase() : null;
+
     const query = mobile_number
       ? { $or: [{ mobile_number }, { phoneNumber: mobile_number }] }
       : { $or: [{ email }, { email_id: email }] };
 
-    const user = await User.findOne(query);
+    const user = await User.findOne(query).select(
+      "+emailOtp +emailOtpExpire +emailOtpAttempts +emailOtpLastSentAt +phoneOtp +phoneOtpExpire"
+    );
 
     if (!user) {
       return res.status(404).json({
@@ -251,21 +289,41 @@ exports.resendOtp = async (req, res) => {
       });
     }
 
-    const otp = Math.floor(100000 + Math.random() * 900000).toString(); // Generate 6-digit OTP
-
     if (email && !mobile_number) {
-      user.emailOtp = otp;
-      user.emailOtpExpire = new Date(Date.now() + 10 * 60 * 1000);
-      await user.save();
-
-      const emailResponse = await sendEmailOTP(email, otp, user.name || user.user_name);
-      if (!emailResponse.success) {
-        return res.status(500).json({
+      // Enforce resend cooldown
+      const cooldownCheck = checkResendCooldown(user.emailOtpLastSentAt);
+      if (cooldownCheck.inCooldown) {
+        return res.status(429).json({
           success: false,
-          message: "Failed to send email OTP. Please try again.",
+          message: `Please wait ${cooldownCheck.secondsRemaining} second(s) before requesting a new OTP.`,
         });
       }
+
+      const otp = generateSecureOTP();
+      const hashedOtp = hashOTP(otp);
+      const otpExpire = calculateExpiry();
+
+      const emailResponse = await sendEmailOTP(
+        email,
+        otp,
+        user.name || user.user_name,
+        Number(process.env.OTP_EXPIRY_MINUTES) || 5
+      );
+
+      if (!emailResponse.success) {
+        return res.status(502).json({
+          success: false,
+          message: emailResponse.message || "Failed to send email OTP. Please try again.",
+        });
+      }
+
+      user.emailOtp = hashedOtp;
+      user.emailOtpExpire = otpExpire;
+      user.emailOtpAttempts = 0;
+      user.emailOtpLastSentAt = new Date();
+      await user.save();
     } else {
+      const otp = Math.floor(100000 + Math.random() * 900000).toString();
       user.phoneOtp = otp;
       user.phoneOtpExpire = new Date(Date.now() + 10 * 60 * 1000);
       await user.save();
@@ -320,7 +378,7 @@ exports.verifyOtp = async (req, res) => {
 
     // Select OTP fields even if select: false
     const user = await User.findOne(query).select(
-      "+phoneOtp +phoneOtpExpire +emailOtp +emailOtpExpire"
+      "+phoneOtp +phoneOtpExpire +emailOtp +emailOtpExpire +emailOtpAttempts"
     );
 
     if (!user) {
@@ -333,20 +391,67 @@ exports.verifyOtp = async (req, res) => {
 
     if (email && !mobile_number) {
       const otpExpireDate = user.emailOtpExpire ? new Date(user.emailOtpExpire) : null;
-      const storedOtp = user.emailOtp ? String(user.emailOtp).trim() : null;
+      const storedOtpHash = user.emailOtp;
 
-      if (!storedOtp || storedOtp !== otp) {
-        console.warn(`[verifyOtp] Mismatch for email ${email}: stored='${storedOtp}' vs received='${otp}'`);
-        return res.status(400).json({ success: false, message: "Invalid OTP" });
-      }
-      if (!otpExpireDate || otpExpireDate < now) {
-        return res.status(400).json({ success: false, message: "Expired OTP" });
+      if (!storedOtpHash || !otpExpireDate) {
+        return res.status(400).json({
+          success: false,
+          message: "No active OTP found. Please request a new OTP.",
+        });
       }
 
+      if (otpExpireDate < now) {
+        user.emailOtp = undefined;
+        user.emailOtpExpire = undefined;
+        user.emailOtpAttempts = 0;
+        await user.save();
+        return res.status(400).json({
+          success: false,
+          message: "Expired OTP. Please request a new OTP.",
+        });
+      }
+
+      const maxAttempts = getMaxVerificationAttempts();
+      if ((user.emailOtpAttempts || 0) >= maxAttempts) {
+        user.emailOtp = undefined;
+        user.emailOtpExpire = undefined;
+        user.emailOtpAttempts = 0;
+        await user.save();
+        return res.status(429).json({
+          success: false,
+          message:
+            "Too many failed attempts. This OTP has been invalidated. Please request a new OTP.",
+        });
+      }
+
+      const isMatch = verifyOTPHash(otp, storedOtpHash);
+      if (!isMatch) {
+        user.emailOtpAttempts = (user.emailOtpAttempts || 0) + 1;
+        const remaining = Math.max(0, maxAttempts - user.emailOtpAttempts);
+        if (remaining === 0) {
+          user.emailOtp = undefined;
+          user.emailOtpExpire = undefined;
+          user.emailOtpAttempts = 0;
+          await user.save();
+          return res.status(429).json({
+            success: false,
+            message:
+              "Maximum verification attempts exceeded. This OTP has been invalidated.",
+          });
+        }
+        await user.save();
+        return res.status(400).json({
+          success: false,
+          message: `Invalid OTP. ${remaining} attempt(s) remaining.`,
+        });
+      }
+
+      // Successful verification: clear OTP and attempts to prevent reuse
       user.is_email_verified = true;
       user.isEmailVerified = true;
       user.emailOtp = undefined;
       user.emailOtpExpire = undefined;
+      user.emailOtpAttempts = 0;
     } else {
       const otpExpireDate = user.phoneOtpExpire ? new Date(user.phoneOtpExpire) : null;
       const storedOtp = user.phoneOtp ? String(user.phoneOtp).trim() : null;

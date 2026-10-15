@@ -458,7 +458,16 @@ MSG91_TEMPLATE_ID=your_template_id
 GOOGLE_CLIENT_ID=your_google_web_client_id.apps.googleusercontent.com
 GOOGLE_CLIENT_SECRET=your_google_client_secret
 
-# SMTP Mailer (Nodemailer)
+# Email Service (MSG91 Email Connections via HTTPS - Recommended for Render/Production)
+MSG91_EMAIL_INTEGRATION_ID=859
+MSG91_EMAIL_TEMPLATE_ID=your_msg91_email_template_id
+
+# OTP Policy Configuration
+OTP_EXPIRY_MINUTES=5
+OTP_RESEND_COOLDOWN_SECONDS=60
+OTP_MAX_ATTEMPTS=5
+
+# SMTP Mailer (Fallback for non-OTP automated emails)
 SMTP_HOST=smtp.gmail.com
 SMTP_PORT=465
 SMTP_MAIL=your_email@gmail.com

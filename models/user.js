@@ -134,6 +134,8 @@ const userSchema = new mongoose.Schema({
   phoneOtpExpire: Date,
   emailOtp: { type: String, select: false },
   emailOtpExpire: Date,
+  emailOtpAttempts: { type: Number, default: 0, select: false },
+  emailOtpLastSentAt: { type: Date, select: false },
   verifyToken: { type: String, select: false },
   verifyTokenExpire: { type: Date, select: false },
 
@@ -344,9 +346,12 @@ userSchema.methods.generatePhoneOtp = function () {
 
 //! Helper function to generate email OTP
 userSchema.methods.generateEmailOtp = function () {
-  const otp = Math.floor(100000 + Math.random() * 900000).toString();
-  this.emailOtp = otp;
-  this.emailOtpExpire = new Date(Date.now() + 10 * 60 * 1000); // 10 minutes
+  const { generateSecureOTP, hashOTP, calculateExpiry } = require("../services/otpService");
+  const otp = generateSecureOTP();
+  this.emailOtp = hashOTP(otp);
+  this.emailOtpExpire = calculateExpiry();
+  this.emailOtpAttempts = 0;
+  this.emailOtpLastSentAt = new Date();
   return otp;
 };
 
