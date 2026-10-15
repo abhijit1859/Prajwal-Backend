@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>Upload JSON File</h2>
+    <form
+      action="http://localhost:3000/api/v1/questions/upload"
+      method="POST"
+      enctype="multipart/form-data"
+    >
+      <input type="file" name="questionfile" accept=".json" />
+      <button type="submit">Upload</button>
+    </form>
+  </body>
+</html>

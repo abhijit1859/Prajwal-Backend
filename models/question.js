@@ -1,0 +1,62 @@
+const mongoose = require("mongoose");
+
+const questionSchema = new mongoose.Schema({
+  is_intext: { type: Boolean, default: false },
+  is_textual: { type: Boolean, default: false },
+  board_year: { type: [String], default: [] },
+  question_type: {
+    type: String,
+    default: "mcq",
+    enum: [
+      "2_marks",
+      "3_marks",
+      "4_marks",
+      "short_ans",
+      "one_word_ans",
+      "match_the_following",
+      "balance_reaction",
+      "who_am_i",
+      "mcq",
+      "blank",
+      "true-false",
+    ],
+  },
+  topic: { type: [String], default: [] },
+  tag: { type: [String], default: [] },
+  category_id: { type: String, default: "na", index: true },
+  question_id: { type: String, required: true, unique: true },
+  question: { type: String, required: true },
+  options: { type: [String], default: [] },
+  answer: { type: String, default: "na" },
+  solution: { type: String, default: "na" },
+  marks: { type: Number, default: 0, min: [0, "Marks cannot be negative"] },
+  subject: { type: mongoose.Schema.Types.ObjectId, ref: "Subject" },
+  chapter: { type: mongoose.Schema.Types.ObjectId, ref: "Chapter" },
+  subject_id: { type: String, default: "na" },
+  chapter_name: { type: String, default: "--"},
+  medium: { type: String, default: "na" },
+  board: { type: String, default: "na" },
+  chapter_id: { type: String, required: true, default: "na" },
+  standard: { type: String, default: "na" },
+  question_contain_media: { type: Boolean, default: false },
+  isBookmarked: { type: Boolean, default: false },
+  option_contain_media: { type: Boolean, default: false },
+  solution_contain_media: { type: Boolean, default: false },
+  question_media: { type: [String], default: [] },
+  option_media: { type: [String], default: [] },
+  solution_media: { type: [String], default: [] },
+  video_link: { type: String, default: "" },
+  contain_latex: { type: Boolean, default: false },
+  ai_pinpoints: { type: [String], default: [] },
+  question_latex: { type: [String], default: [] },
+  option_latex: { type: [String], default: [] },
+  solution_latex: { type: [String], default: [] },
+  embedding_text: { type: String, default: "" },
+  embedding: {
+    type: [Number],
+    default: [], // undefined so existing docs without field remain untouched
+  },
+});
+
+
+module.exports = mongoose.model("Question", questionSchema);

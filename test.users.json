@@ -1,0 +1,1936 @@
+[{
+  "name": "Krunal Patel",
+  "role": "user",
+  "phoneNumber": "+917573900171",
+  "email": "pk5672717@gmail.com",
+  "imageUrl": "https://profile-image.com",
+  "organization": "",
+  "isEmailVerified": true,
+  "isPro": false,
+  "password": "$2b$10$bTr7NzNDv91GCq5TRMppLu3U62zwwXnJgZqMHXw/yGnLwy1M4If/q",
+  "loggedinDevices": [
+    {
+      "deviceInfo": {
+        "deviceId": "TP1A.220905.001",
+        "lastLogin": {
+          "$date": "2024-12-15T18:31:25.903Z"
+        },
+        "deviceName": "EB2101"
+      },
+      "_id": {
+        "$oid": "675f207d9ea6b1ae506d08d3"
+      }
+    }
+  ],
+  "purchasedCourses": [],
+  "posts": [],
+  "bookmarkedQuestions": [],
+  "createdCourses": [],
+  "wishLists": [],
+  "__v": 1,
+  "preferences": {
+    "$oid": "675f20379ea6b1ae506d08ba"
+  }
+},
+{
+  "name": "Medhwan EduTech",
+  "role": "admin",
+  "phoneNumber": "7573900171",
+  "email": "admin@medhwan.com",
+  "imageUrl": "url",
+  "isEmailVerified": true,
+  "isPro": true,
+  "password": "$2b$10$o.LDpKRKEOtXVm9Fcmiv8eh8oayKfDRRqWPu517C0eNK2thY0wKCK",
+  "loggedinDevices": [],
+  "purchasedCourses": [],
+  "posts": [],
+  "bookmarkedQuestions": [],
+  "createdCourses": [
+    {
+      "course": {
+        "$oid": "675fb00d4175d32f6a126e2b"
+      },
+      "_id": {
+        "$oid": "675fb00d4175d32f6a126e2e"
+      }
+    },
+    {
+      "course": {
+        "$oid": "675fb5da4175d32f6a126e42"
+      },
+      "_id": {
+        "$oid": "675fb5da4175d32f6a126e46"
+      }
+    },
+    {
+      "course": {
+        "$oid": "67a1ce32b21c5736f261dbb2"
+      },
+      "_id": {
+        "$oid": "67a1ce33b21c5736f261dbb7"
+      }
+    },
+    {
+      "course": {
+        "$oid": "67a1d105b21c5736f261ddda"
+      },
+      "_id": {
+        "$oid": "67a1d105b21c5736f261dde0"
+      }
+    },
+    {
+      "course": {
+        "$oid": "67aa111f84bc88756882cfed"
+      },
+      "_id": {
+        "$oid": "67aa111f84bc88756882cff4"
+      }
+    },
+    {
+      "course": {
+        "$oid": "67aa114184bc88756882cffc"
+      },
+      "_id": {
+        "$oid": "67aa114184bc88756882d004"
+      }
+    },
+    {
+      "course": {
+        "$oid": "67ae1eaae42ef3e29a8d58fb"
+      },
+      "_id": {
+        "$oid": "67ae1eaae42ef3e29a8d5904"
+      }
+    },
+    {
+      "course": {
+        "$oid": "67b9ce8564bce984b6b74c77"
+      },
+      "_id": {
+        "$oid": "67b9ce8564bce984b6b74c81"
+      }
+    },
+    {
+      "course": {
+        "$oid": "67bd59bfff0216036075c598"
+      },
+      "_id": {
+        "$oid": "67bd59c0ff0216036075c5a3"
+      }
+    }
+  ],
+  "wishLists": [],
+  "__v": 9,
+  "preferences": {
+    "$oid": "675f21b29ea6b1ae506d08eb"
+  },
+  "verifyToken": "12eae06faa684f4c4e94ebd07708af4c0fdc32fd2d5321e6c0f3a218c8c51b47",
+  "verifyTokenExpire": {
+    "$date": "2024-12-15T18:46:34.815Z"
+  }
+},
+{
+  "name": "Krunal Patel",
+  "role": "user",
+  "phoneNumber": "7573900171",
+  "email": "krunalpatel6802@gmail.com",
+  "imageUrl": "https://profile-image.com",
+  "organization": "",
+  "isEmailVerified": true,
+  "isPro": false,
+  "password": "$2b$10$hTS1A2gWIr/PGHDEKdLkLeWcAdOLDpE0SI/pyt9idQGb8vdFdqGY.",
+  "loggedinDevices": [
+    {
+      "deviceInfo": {
+        "deviceId": "TP1A.220905.001",
+        "lastLogin": {
+          "$date": "2025-02-24T15:33:02.920Z"
+        },
+        "deviceName": "EB2101"
+      },
+      "_id": {
+        "$oid": "67a731f64c64ce088114e0b7"
+      }
+    }
+  ],
+  "purchasedCourses": [],
+  "posts": [],
+  "bookmarkedQuestions": [],
+  "createdCourses": [],
+  "wishLists": [],
+  "__v": 6,
+  "preferences": {
+    "$oid": "6763d7ae91653fe9520b36e8"
+  }
+},
+{
+  "name": "Kamal hadiyal",
+  "role": "user",
+  "phoneNumber": "8200491510",
+  "email": "kamal.hadiyal009@gmail.com",
+  "imageUrl": "https://profile-image.com",
+  "organization": "",
+  "isEmailVerified": true,
+  "isPro": true,
+  "password": "$2b$10$teisIgxP.2fZ.PE5deRwqeEaiGj2B9qzAYQqrQZkEJCs1SDiU9fLm",
+  "loggedinDevices": [
+    {
+      "deviceInfo": {
+        "deviceId": "AP3A.240617.008",
+        "lastLogin": {
+          "$date": "2025-03-23T04:59:04.519Z"
+        },
+        "deviceName": "CPH2599"
+      },
+      "_id": {
+        "$oid": "67df95188a82548b02d26db3"
+      }
+    }
+  ],
+  "purchasedCourses": [
+    {
+      "course": {
+        "$oid": "675fb00d4175d32f6a126e2b"
+      },
+      "purchasedAt": {
+        "$date": "2025-02-14T11:02:17.453Z"
+      },
+      "validTill": {
+        "$date": "2026-02-14T11:02:17.453Z"
+      },
+      "_id": {
+        "$oid": "67af22b90413dd05656f23f3"
+      }
+    },
+    {
+      "course": {
+        "$oid": "67a1ce32b21c5736f261dbb2"
+      },
+      "purchasedAt": {
+        "$date": "2025-02-14T11:02:17.453Z"
+      },
+      "validTill": {
+        "$date": "2026-02-14T11:02:17.453Z"
+      },
+      "_id": {
+        "$oid": "67af22b90413dd05656f23f4"
+      }
+    },
+    {
+      "course": {
+        "$oid": "67b9ce8564bce984b6b74c77"
+      },
+      "purchasedAt": {
+        "$date": "2025-02-25T08:47:18.248Z"
+      },
+      "validTill": {
+        "$date": "2026-02-25T08:47:18.248Z"
+      },
+      "_id": {
+        "$oid": "67bd8396ff0216036075daf4"
+      }
+    }
+  ],
+  "posts": [],
+  "bookmarkedQuestions": [],
+  "createdCourses": [],
+  "wishLists": [],
+  "__v": 7,
+  "preferences": {
+    "$oid": "676523f191653fe9520ce593"
+  }
+},
+{
+  "name": "Mukesh ",
+  "role": "user",
+  "phoneNumber": "9662741496",
+  "email": "hadiyalmukesh61@gmail.com",
+  "imageUrl": "https://profile-image.com",
+  "organization": "",
+  "isEmailVerified": true,
+  "isPro": false,
+  "password": "$2b$10$qI5tz9ZGBcueIYs8WPatr.VKL0AQdkXpRoXLiBa8a2KvgrN2Rwhjq",
+  "loggedinDevices": [
+    {
+      "deviceInfo": {
+        "deviceId": "RP1A.200720.011",
+        "lastLogin": {
+          "$date": "2024-12-23T13:08:25.664Z"
+        },
+        "deviceName": "RMX2193"
+      },
+      "_id": {
+        "$oid": "6766a3ae91653fe9520e0bf9"
+      }
+    }
+  ],
+  "purchasedCourses": [],
+  "posts": [],
+  "bookmarkedQuestions": [],
+  "createdCourses": [],
+  "wishLists": [],
+  "__v": 1,
+  "preferences": {
+    "$oid": "6766a38191653fe9520e0bf2"
+  }
+},
+{
+  "name": "Baldevpari ",
+  "role": "user",
+  "phoneNumber": "+919662025720",
+  "email": "baldevpari42@gmail.com",
+  "imageUrl": "https://profile-image.com",
+  "organization": "kathrota ",
+  "isEmailVerified": true,
+  "isPro": false,
+  "password": "$2b$10$JcDF5ZhcioFAYuSGj5FTGewfkxqJycHJ7nbgkvR/wjxWXMg88Q6hW",
+  "loggedinDevices": [
+    {
+      "deviceInfo": {
+        "deviceId": "UKQ1.230924.001",
+        "lastLogin": {
+          "$date": "2024-12-23T11:58:55.384Z"
+        },
+        "deviceName": "KB2001"
+      },
+      "_id": {
+        "$oid": "6769507f5605233068e00cce"
+      }
+    }
+  ],
+  "purchasedCourses": [],
+  "posts": [],
+  "bookmarkedQuestions": [],
+  "createdCourses": [],
+  "wishLists": [],
+  "__v": 1,
+  "preferences": {
+    "$oid": "676950375605233068e00cc2"
+  }
+},
+{
+  "name": "DHAVAL VASANI",
+  "role": "user",
+  "phoneNumber": "7490891120",
+  "email": "dhavalvasani308@gmail.com",
+  "imageUrl": "https://profile-image.com",
+  "organization": "Parishram Science School, Bantva",
+  "isEmailVerified": true,
+  "isPro": false,
+  "password": "$2b$10$enhsUxO4Aq3K9JjVDz1A4e9DDvKTASubCP58qbsmylJ6O0QTqnhiy",
+  "loggedinDevices": [
+    {
+      "deviceInfo": {
+        "deviceId": "PPR1.180610.011",
+        "lastLogin": {
+          "$date": "2024-12-25T06:10:29.821Z"
+        },
+        "deviceName": "Redmi 6"
+      },
+      "_id": {
+        "$oid": "676ba1d51e2df8374d1e4c67"
+      }
+    }
+  ],
+  "purchasedCourses": [],
+  "posts": [],
+  "bookmarkedQuestions": [],
+  "createdCourses": [],
+  "wishLists": [],
+  "__v": 1,
+  "preferences": {
+    "$oid": "676966fc5605233068e08c36"
+  }
+},
+{
+  "name": "anuj",
+  "role": "user",
+  "phoneNumber": "+919082538438",
+  "email": "ceph4907@gmail.com",
+  "imageUrl": "https://profile-image.com",
+  "organization": "IIITV-ICD ",
+  "isEmailVerified": false,
+  "isPro": false,
+  "password": "$2b$10$wOTe7WBzexU7FeJnCxOF2eMb9Zt5IY0mn9tepy.M8eCtOkqtBXuNi",
+  "loggedinDevices": [],
+  "purchasedCourses": [],
+  "posts": [],
+  "bookmarkedQuestions": [],
+  "createdCourses": [],
+  "wishLists": [],
+  "__v": 0,
+  "preferences": {
+    "$oid": "67699a575605233068e09635"
+  },
+  "verifyToken": "07c61dde36b3706b75a1569fa0609b1e7c22d1b0002bd5770914ccc8d691dc76",
+  "verifyTokenExpire": {
+    "$date": "2024-12-23T17:24:22.892Z"
+  }
+},
+{
+  "name": "Parmar Sir",
+  "role": "user",
+  "phoneNumber": "1111111111",
+  "email": "parmarsir@medhwan.com",
+  "imageUrl": "url",
+  "isEmailVerified": true,
+  "isPro": false,
+  "password": "$2b$10$sRUuYgJom3Mt8GAiCNDDZ.O1meF3ncGhLYuVFOHZwbObo/mu83lTi",
+  "loggedinDevices": [
+    {
+      "deviceInfo": {
+        "deviceId": "SKQ1.211202.001",
+        "lastLogin": {
+          "$date": "2024-12-24T13:23:23.554Z"
+        },
+        "deviceName": "M2010J19SI"
+      },
+      "_id": {
+        "$oid": "676a78871e2df8374d1d792f"
+      }
+    }
+  ],
+  "purchasedCourses": [],
+  "posts": [],
+  "bookmarkedQuestions": [],
+  "createdCourses": [],
+  "wishLists": [],
+  "__v": 1,
+  "preferences": {
+    "$oid": "676a780c1e2df8374d1d792a"
+  },
+  "verifyToken": "759476c308c867bd38acd1dbcdf1ecebf65e3bcafb497a2f7adfe062b10c42d2",
+  "verifyTokenExpire": {
+    "$date": "2024-12-24T09:09:56.817Z"
+  }
+},
+{
+  "name": "Rutu Kukadiya",
+  "role": "user",
+  "phoneNumber": "1111111111",
+  "email": "rkukadiya287@rku.ac.in",
+  "imageUrl": "url",
+  "isEmailVerified": true,
+  "isPro": false,
+  "password": "$2b$10$fvINgh6ZMDRSEPI0bbM/gOYKQtnaetr64yXbPmBM7hXaLowlC.0I2",
+  "loggedinDevices": [
+    {
+      "deviceInfo": {
+        "deviceId": "TP1A.220624.014",
+        "lastLogin": {
+          "$date": "2024-12-26T05:52:19.284Z"
+        },
+        "deviceName": "SM-A127F"
+      },
+      "_id": {
+        "$oid": "676cef149250a777f2412482"
+      }
+    }
+  ],
+  "purchasedCourses": [],
+  "posts": [],
+  "bookmarkedQuestions": [],
+  "createdCourses": [],
+  "wishLists": [],
+  "__v": 1,
+  "preferences": {
+    "$oid": "676ceee49250a777f241247d"
+  },
+  "verifyToken": "4ee5d11772754b95c4130351e2110f240dd939ddfe3044d8344eb5c07b6f99fc",
+  "verifyTokenExpire": {
+    "$date": "2024-12-26T06:01:32.727Z"
+  }
+},
+{
+  "name": "Aey",
+  "role": "user",
+  "phoneNumber": "8650777663",
+  "email": "asianservice78654@gmail.com",
+  "imageUrl": "https://profile-image.com",
+  "organization": "bps",
+  "isEmailVerified": true,
+  "isPro": false,
+  "password": "$2b$10$2s0wy/NdQRcpyvTbwiFqbe.Kl0IcFuD86rF.NzboHtD52iWMu4LBy",
+  "loggedinDevices": [
+    {
+      "deviceInfo": {
+        "deviceId": "UP1A.231005.007",
+        "lastLogin": {
+          "$date": "2025-01-04T18:13:48.905Z"
+        },
+        "deviceName": "SM-M146B"
+      },
+      "_id": {
+        "$oid": "6779778d9c42c38a7331f08e"
+      }
+    }
+  ],
+  "purchasedCourses": [],
+  "posts": [],
+  "bookmarkedQuestions": [],
+  "createdCourses": [],
+  "wishLists": [],
+  "__v": 4,
+  "preferences": {
+    "$oid": "6779775b9c42c38a7331f082"
+  }
+},
+{
+  "name": "Karan Hadiyal",
+  "role": "user",
+  "phoneNumber": "6353115159",
+  "email": "karanhadiyal65@gmail.com",
+  "imageUrl": "https://profile-image.com",
+  "organization": "Medhwan School",
+  "isEmailVerified": true,
+  "isPro": true,
+  "password": "$2b$10$cnStjYSEiM.ptsryahqFKuwA.65JJhFRH0ZSdY1T5eO8mHju71iUK",
+  "loggedinDevices": [
+    {
+      "deviceInfo": {
+        "deviceId": "AP3A.240617.008",
+        "lastLogin": {
+          "$date": "2025-06-06T04:46:42.532Z"
+        },
+        "deviceName": "CPH2643"
+      },
+      "_id": {
+        "$oid": "684272b2d8d696ef3fea1168"
+      }
+    }
+  ],
+  "purchasedCourses": [
+    {
+      "course": {
+        "$oid": "67bd59bfff0216036075c598"
+      },
+      "purchasedAt": {
+        "$date": "2025-02-25T08:48:52.561Z"
+      },
+      "validTill": {
+        "$date": "2026-02-25T08:48:52.489Z"
+      },
+      "_id": {
+        "$oid": "67bd83f4ff0216036075db92"
+      }
+    }
+  ],
+  "posts": [],
+  "bookmarkedQuestions": [],
+  "createdCourses": [],
+  "wishLists": [],
+  "__v": 25,
+  "preferences": {
+    "$oid": "678f18b4e431a9c4a2b3ee71"
+  },
+  "isPhoneVerified": false,
+  "phoneOtp": "0000",
+  "phoneOtpExpire": {
+    "$date": "2025-06-20T03:00:38.310Z"
+  }
+},
+{
+  "name": "Sunita Mishra",
+  "role": "user",
+  "phoneNumber": "+916387965978",
+  "email": "sunitamishra0918@gmail.com",
+  "imageUrl": "https://profile-image.com",
+  "organization": "",
+  "isEmailVerified": true,
+  "isPro": false,
+  "password": "$2b$10$BJiITICIp0awlMMNV5A7DeLPgdaya1elp1tibt8WoQ51jVrl3zbba",
+  "loggedinDevices": [
+    {
+      "deviceInfo": {
+        "deviceId": "QP1A.190711.020",
+        "lastLogin": {
+          "$date": "2025-01-21T04:51:54.637Z"
+        },
+        "deviceName": "M2006C3LI"
+      },
+      "_id": {
+        "$oid": "678f25dee431a9c4a2b3f13c"
+      }
+    }
+  ],
+  "purchasedCourses": [],
+  "posts": [],
+  "bookmarkedQuestions": [],
+  "createdCourses": [],
+  "wishLists": [],
+  "__v": 4,
+  "preferences": {
+    "$oid": "678f2500e431a9c4a2b3f133"
+  }
+},
+{
+  "name": "jimmy",
+  "role": "user",
+  "phoneNumber": "9026434558",
+  "email": "anubhavray45@gmail.com",
+  "imageUrl": "https://profile-image.com",
+  "organization": "",
+  "isEmailVerified": true,
+  "isPro": false,
+  "password": "$2b$10$nkx67kQvBL3Rv6Cc2RA18Oi.Qnr9bEUQI1jGgcBXI02yBWCZ1E75u",
+  "loggedinDevices": [
+    {
+      "deviceInfo": {
+        "deviceId": "AQ3A.240912.001",
+        "lastLogin": {
+          "$date": "2025-01-23T14:57:46.999Z"
+        },
+        "deviceName": "23076RN4BI"
+      },
+      "_id": {
+        "$oid": "679258eae431a9c4a2b4250c"
+      }
+    }
+  ],
+  "purchasedCourses": [],
+  "posts": [],
+  "bookmarkedQuestions": [],
+  "createdCourses": [],
+  "wishLists": [],
+  "__v": 3,
+  "preferences": {
+    "$oid": "679258abe431a9c4a2b42504"
+  }
+},
+{
+  "name": "pragnesh pandya ",
+  "role": "user",
+  "phoneNumber": "9574511244",
+  "email": "pragneshpandya9277@gmail.com",
+  "imageUrl": "https://profile-image.com",
+  "organization": "krishna science school ",
+  "isEmailVerified": false,
+  "isPro": false,
+  "password": "$2b$10$PtFNvWOdPPzdua6Sp6Qffe878c/8shmpzrAmLuxaHWZzVbr0mQ68q",
+  "loggedinDevices": [],
+  "purchasedCourses": [],
+  "posts": [],
+  "bookmarkedQuestions": [],
+  "createdCourses": [],
+  "wishLists": [],
+  "__v": 0,
+  "preferences": {
+    "$oid": "679cece3cc378ed112b764ed"
+  },
+  "verifyToken": "c9f46343abc9f3dba5f5de158b5efe0c7cc7830a38bb2f54093fb9c1fe003a58",
+  "verifyTokenExpire": {
+    "$date": "2025-04-02T17:48:49.108Z"
+  }
+},
+{
+  "name": "Vandana Hadiyal",
+  "role": "user",
+  "phoneNumber": "9909621515",
+  "email": "vandanahadiyal841@gmail.com",
+  "imageUrl": "https://profile-image.com",
+  "organization": "Medhwan",
+  "isEmailVerified": false,
+  "isPro": false,
+  "password": "$2b$10$3Jchq6ywLSU/stHw8iJxheyi0kaPxN.k8wZBYrIzWWnRXEtZ6hlp2",
+  "loggedinDevices": [
+    {
+      "deviceInfo": {
+        "deviceId": "SKQ1.211202.001",
+        "lastLogin": {
+          "$date": "2025-02-13T04:06:35.787Z"
+        },
+        "deviceName": "M2010J19SI"
+      },
+      "_id": {
+        "$oid": "67aab1b384bc887568838056"
+      }
+    }
+  ],
+  "purchasedCourses": [],
+  "posts": [],
+  "bookmarkedQuestions": [],
+  "createdCourses": [],
+  "wishLists": [],
+  "__v": 3,
+  "preferences": {
+    "$oid": "67aab15c84bc88756883804f"
+  }
+},
+{
+  "name": "Krunal Patel",
+  "role": "user",
+  "phoneNumber": "6353728193",
+  "email": "kro122232@gmail.com",
+  "imageUrl": "url",
+  "isEmailVerified": true,
+  "isPro": false,
+  "password": "$2b$10$MChjCUW2rM6ex7KX0c6AJOYGpcWjuVjBBpcw1szzpi1v3pGY/WW.i",
+  "loggedinDevices": [
+    {
+      "deviceInfo": {
+        "deviceId": "1234567890",
+        "lastLogin": {
+          "$date": "2025-02-15T05:38:47.233Z"
+        },
+        "deviceName": "TestDevice1"
+      },
+      "_id": {
+        "$oid": "67b02867e545e4d5e9ffbe59"
+      }
+    }
+  ],
+  "purchasedCourses": [],
+  "posts": [],
+  "bookmarkedQuestions": [],
+  "createdCourses": [],
+  "wishLists": [],
+  "__v": 1,
+  "preferences": {
+    "$oid": "67b02839e545e4d5e9ffbe4c"
+  }
+},
+{
+  "name": "Akash Mishra",
+  "role": "admin",
+  "phoneNumber": "+919580608314",
+  "email": "akashmishra242@gmail.com",
+  "imageUrl": "https://profile-123image.com",
+  "organization": "",
+  "isEmailVerified": true,
+  "isPro": true,
+  "password": "$2b$10$qPA93BoopskHV7helIzTnuIuX3Wz6WbZYL5H61TrE9ziRuIfxG/4K",
+  "loggedinDevices": [
+    {
+      "deviceInfo": {
+        "deviceId": "1234567890",
+        "lastLogin": {
+          "$date": "2025-01-05T06:18:05.871Z"
+        },
+        "deviceName": "TestDevice1"
+      },
+      "_id": {
+        "$oid": "677a241d333ee1e4c2725ae5"
+      }
+    }
+  ],
+  "purchasedCourses": [
+    {
+      "course": {
+        "$oid": "67bd59bfff0216036075c598"
+      },
+      "purchasedAt": {
+        "$date": "2025-02-27T17:00:52.144Z"
+      },
+      "validTill": {
+        "$date": "2026-02-27T17:00:52.143Z"
+      },
+      "_id": {
+        "$oid": "67c09a441fb27b08725f289b"
+      }
+    }
+  ],
+  "posts": [],
+  "bookmarkedQuestions": [
+    {
+      "question": {
+        "$oid": "67bd8377ff0216036075d099"
+      },
+      "_id": {
+        "$oid": "67eacdd8d850dcb30b9e0b00"
+      }
+    },
+    {
+      "question": {
+        "$oid": "67bd8377ff0216036075d09b"
+      },
+      "_id": {
+        "$oid": "67eacdd9d850dcb30b9e0b0b"
+      }
+    }
+  ],
+  "createdCourses": [],
+  "wishLists": [],
+  "__v": 73,
+  "preferences": {
+    "$oid": "675f233f4175d32f6a126db5"
+  },
+  "resetPasswordExpire": {
+    "$date": "2025-01-20T14:12:13.968Z"
+  },
+  "resetPasswordToken": "51828c8abbbebe0df1476db9b65b76458eaff3bde38ee197c94edeeef7010b85"
+},
+{
+  "name": "Riva Zalavadiya",
+  "role": "user",
+  "phoneNumber": "9925536664",
+  "email": "satishzalavadiya1974@gmail.com",
+  "imageUrl": "https://profile-image.com",
+  "organization": "Ever Shine Batwa",
+  "isEmailVerified": true,
+  "isPro": true,
+  "password": "$2b$10$1RlgA.w5oeqoa7wPhx0Fy.q9eDF4StuTT7XICEyFE8r0miDGFYnna",
+  "loggedinDevices": [
+    {
+      "deviceInfo": {
+        "deviceId": "RKQ1.201004.002",
+        "lastLogin": {
+          "$date": "2025-02-16T16:24:44.793Z"
+        },
+        "deviceName": "Redmi Note 8"
+      },
+      "_id": {
+        "$oid": "67b1a21848ae9dcaca6298b8"
+      }
+    }
+  ],
+  "purchasedCourses": [
+    {
+      "course": {
+        "$oid": "675fb00d4175d32f6a126e2b"
+      },
+      "purchasedAt": {
+        "$date": "2025-02-13T15:22:43.529Z"
+      },
+      "validTill": {
+        "$date": "2026-02-13T15:22:43.529Z"
+      },
+      "_id": {
+        "$oid": "67ae0e43abfa7eb4e592b21a"
+      }
+    },
+    {
+      "course": {
+        "$oid": "67a1ce32b21c5736f261dbb2"
+      },
+      "purchasedAt": {
+        "$date": "2025-02-13T15:22:43.529Z"
+      },
+      "validTill": {
+        "$date": "2026-02-13T15:22:43.529Z"
+      },
+      "_id": {
+        "$oid": "67ae0e43abfa7eb4e592b21b"
+      }
+    },
+    {
+      "course": {
+        "$oid": "67b9ce8564bce984b6b74c77"
+      },
+      "purchasedAt": {
+        "$date": "2025-02-22T13:28:39.949Z"
+      },
+      "validTill": {
+        "$date": "2026-02-22T13:28:39.949Z"
+      },
+      "_id": {
+        "$oid": "67b9d10764bce984b6b7557e"
+      }
+    }
+  ],
+  "posts": [],
+  "bookmarkedQuestions": [],
+  "createdCourses": [],
+  "wishLists": [],
+  "__v": 2,
+  "preferences": {
+    "$oid": "67b1a1de48ae9dcaca629661"
+  }
+},
+{
+  "name": "DHAVAL GAJERA",
+  "role": "user",
+  "phoneNumber": "+919426203911",
+  "email": "dhaval.hg.1895r@gmail.com",
+  "imageUrl": "https://profile-image.com",
+  "organization": "Vedic",
+  "isEmailVerified": true,
+  "isPro": true,
+  "password": "$2b$10$tFtcXzxoC8wBhOctexn1t.XpmPoDGz1JRYOFqRq3ITqeDB9AV6OhS",
+  "loggedinDevices": [
+    {
+      "deviceInfo": {
+        "deviceId": "OPM1.171019.011",
+        "lastLogin": {
+          "$date": "2025-03-07T05:01:11.828Z"
+        },
+        "deviceName": "Redmi Note 6 Pro"
+      },
+      "_id": {
+        "$oid": "67b2ecd83db4290af6fabddb"
+      }
+    }
+  ],
+  "purchasedCourses": [
+    {
+      "course": {
+        "$oid": "67bd59bfff0216036075c598"
+      },
+      "purchasedAt": {
+        "$date": "2025-03-07T04:56:06.041Z"
+      },
+      "validTill": {
+        "$date": "2026-03-07T04:56:06.040Z"
+      },
+      "_id": {
+        "$oid": "67ca7c66261c5d9eb34df676"
+      }
+    }
+  ],
+  "posts": [],
+  "bookmarkedQuestions": [],
+  "createdCourses": [],
+  "wishLists": [],
+  "__v": 2,
+  "preferences": {
+    "$oid": "67b2d81a3db4290af6fab3f9"
+  }
+},
+{
+  "name": "Eklavya Admin",
+  "role": "user",
+  "phoneNumber": "9998990684",
+  "email": "administrator@eklavyapublicschool.edu.in",
+  "imageUrl": "url",
+  "isEmailVerified": true,
+  "isPro": true,
+  "password": "$2b$10$kr5/jgD3UQlK8UksVTf2CePiDKXbvTt8TXHve0GjwPrfRDNdsxFmK",
+  "loggedinDevices": [
+    {
+      "deviceInfo": {
+        "deviceId": "RP1A.200720.011",
+        "lastLogin": {
+          "$date": "2025-02-18T05:48:56.744Z"
+        },
+        "deviceName": "CPH1969"
+      },
+      "_id": {
+        "$oid": "67b41f483d51b3d8c655775f"
+      }
+    }
+  ],
+  "purchasedCourses": [
+    {
+      "course": {
+        "$oid": "675fb00d4175d32f6a126e2b"
+      },
+      "purchasedAt": {
+        "$date": "2025-02-13T15:22:43.529Z"
+      },
+      "validTill": {
+        "$date": "2026-02-13T15:22:43.529Z"
+      },
+      "_id": {
+        "$oid": "67ae0e43abfa7eb4e592b21a"
+      }
+    },
+    {
+      "course": {
+        "$oid": "67a1ce32b21c5736f261dbb2"
+      },
+      "purchasedAt": {
+        "$date": "2025-02-13T15:22:43.529Z"
+      },
+      "validTill": {
+        "$date": "2026-02-13T15:22:43.529Z"
+      },
+      "_id": {
+        "$oid": "67ae0e43abfa7eb4e592b21b"
+      }
+    },
+    {
+      "course": {
+        "$oid": "67b9ce8564bce984b6b74c77"
+      },
+      "purchasedAt": {
+        "$date": "2025-02-22T13:28:39.967Z"
+      },
+      "validTill": {
+        "$date": "2026-02-22T13:28:39.967Z"
+      },
+      "_id": {
+        "$oid": "67b9d10764bce984b6b75581"
+      }
+    }
+  ],
+  "posts": [],
+  "bookmarkedQuestions": [],
+  "createdCourses": [],
+  "wishLists": [],
+  "__v": 2,
+  "preferences": {
+    "$oid": "67b41dd73d51b3d8c6556fd5"
+  },
+  "verifyToken": "3095cbc0fcbe1e08f297885002c592c7b1977e3628934fc0c2ccb8f79fd7af07",
+  "verifyTokenExpire": {
+    "$date": "2025-02-18T05:52:47.603Z"
+  }
+},
+{
+  "name": "dhruv ankola",
+  "role": "user",
+  "phoneNumber": "+91 8799079315",
+  "email": "dhruvankola2009@gmail.com",
+  "imageUrl": "https://profile-image.com",
+  "organization": "shree narayani higher secondary school",
+  "isEmailVerified": true,
+  "isPro": true,
+  "password": "$2b$10$LY13zZ6O2FneLb3ZxUrnb.Km0XjD/QuX6YmRzNyeBKa15TjxHKLDG",
+  "loggedinDevices": [
+    {
+      "deviceInfo": {
+        "deviceId": "O11019",
+        "lastLogin": {
+          "$date": "2025-02-27T15:04:04.228Z"
+        },
+        "deviceName": "vivo 1816"
+      },
+      "_id": {
+        "$oid": "67b8abc064bce984b6b74320"
+      }
+    }
+  ],
+  "purchasedCourses": [
+    {
+      "course": {
+        "$oid": "675fb00d4175d32f6a126e2b"
+      },
+      "purchasedAt": {
+        "$date": "2025-02-27T14:45:54.987Z"
+      },
+      "validTill": {
+        "$date": "2026-02-27T14:45:54.982Z"
+      },
+      "_id": {
+        "$oid": "67c07aa337d8650fced20510"
+      }
+    },
+    {
+      "course": {
+        "$oid": "67a1ce32b21c5736f261dbb2"
+      },
+      "purchasedAt": {
+        "$date": "2025-02-27T14:45:54.987Z"
+      },
+      "validTill": {
+        "$date": "2026-02-27T14:45:54.982Z"
+      },
+      "_id": {
+        "$oid": "67c07aa337d8650fced20511"
+      }
+    },
+    {
+      "course": {
+        "$oid": "67b9ce8564bce984b6b74c77"
+      },
+      "purchasedAt": {
+        "$date": "2025-02-27T14:45:54.987Z"
+      },
+      "validTill": {
+        "$date": "2026-02-27T14:45:54.982Z"
+      },
+      "_id": {
+        "$oid": "67c07aa337d8650fced20512"
+      }
+    }
+  ],
+  "posts": [],
+  "bookmarkedQuestions": [],
+  "createdCourses": [],
+  "wishLists": [],
+  "__v": 2,
+  "preferences": {
+    "$oid": "67b8a87864bce984b6b74311"
+  }
+},
+{
+  "name": "Karan Demo",
+  "role": "user",
+  "phoneNumber": "6353115159",
+  "email": "freelancerkalu@gmail.com",
+  "imageUrl": "https://profile-image.com",
+  "organization": "Medhwan",
+  "isEmailVerified": true,
+  "isPro": true,
+  "password": "$2b$10$cOrLjl2pk/vwcDwza.EhaO4IohYyPzfevz2WEORGlV9MvoyAp8Vl2",
+  "loggedinDevices": [
+    {
+      "deviceInfo": {
+        "deviceId": "AP3A.240617.008",
+        "lastLogin": {
+          "$date": "2025-06-06T04:47:45.758Z"
+        },
+        "deviceName": "CPH2643"
+      },
+      "_id": {
+        "$oid": "684272f11184510a679c24f8"
+      }
+    }
+  ],
+  "purchasedCourses": [
+    {
+      "course": {
+        "$oid": "675fb00d4175d32f6a126e2b"
+      },
+      "purchasedAt": {
+        "$date": "2025-02-27T15:16:32.309Z"
+      },
+      "validTill": {
+        "$date": "2026-02-27T15:16:32.307Z"
+      },
+      "_id": {
+        "$oid": "67c081d01fb27b08725f1df8"
+      }
+    },
+    {
+      "course": {
+        "$oid": "67a1ce32b21c5736f261dbb2"
+      },
+      "purchasedAt": {
+        "$date": "2025-02-27T15:16:32.309Z"
+      },
+      "validTill": {
+        "$date": "2026-02-27T15:16:32.307Z"
+      },
+      "_id": {
+        "$oid": "67c081d01fb27b08725f1df9"
+      }
+    },
+    {
+      "course": {
+        "$oid": "67b9ce8564bce984b6b74c77"
+      },
+      "purchasedAt": {
+        "$date": "2025-02-27T15:16:32.309Z"
+      },
+      "validTill": {
+        "$date": "2026-02-27T15:16:32.307Z"
+      },
+      "_id": {
+        "$oid": "67c081d01fb27b08725f1dfa"
+      }
+    },
+    {
+      "course": {
+        "$oid": "67bd59bfff0216036075c598"
+      },
+      "purchasedAt": {
+        "$date": "2025-03-01T02:51:49.766Z"
+      },
+      "validTill": {
+        "$date": "2026-03-01T02:51:49.765Z"
+      },
+      "_id": {
+        "$oid": "67c27645b4fcf910366772b5"
+      }
+    }
+  ],
+  "posts": [],
+  "bookmarkedQuestions": [
+    {
+      "question": {
+        "$oid": "678dcb32a36c0f8f9394cd68"
+      },
+      "_id": {
+        "$oid": "684272fe1184510a679c2edb"
+      }
+    },
+    {
+      "question": {
+        "$oid": "678dcb32a36c0f8f9394cd6a"
+      },
+      "_id": {
+        "$oid": "684273001184510a679c2eec"
+      }
+    },
+    {
+      "question": {
+        "$oid": "678dcb32a36c0f8f9394cd52"
+      },
+      "_id": {
+        "$oid": "684273091184510a679c3151"
+      }
+    },
+    {
+      "question": {
+        "$oid": "67a7187f4c64ce088114c64d"
+      },
+      "_id": {
+        "$oid": "6842730f1184510a679c34e4"
+      }
+    },
+    {
+      "question": {
+        "$oid": "67a1dc11b21c5736f261e9df"
+      },
+      "_id": {
+        "$oid": "684273211184510a679c3811"
+      }
+    }
+  ],
+  "createdCourses": [],
+  "wishLists": [],
+  "__v": 9,
+  "preferences": {
+    "$oid": "67c081591fb27b08725f1590"
+  },
+  "isPhoneVerified": false
+},
+{
+  "name": "Saba Godil",
+  "role": "user",
+  "phoneNumber": "7990923665",
+  "email": "sabagodil4@gmail.com",
+  "imageUrl": "https://profile-image.com",
+  "organization": "Adarsh ",
+  "isEmailVerified": false,
+  "isPro": false,
+  "password": "$2b$10$VPMVw5.UVgv4Q.JVJGRaHOJ5M62Pjaix4UtKe0n1IAFVBRyTlSU66",
+  "loggedinDevices": [],
+  "purchasedCourses": [],
+  "posts": [],
+  "bookmarkedQuestions": [],
+  "createdCourses": [],
+  "wishLists": [],
+  "__v": 0,
+  "preferences": {
+    "$oid": "67c5d45271ac1d45ebc9a8a1"
+  },
+  "verifyToken": "9e0e16b34c1649b28a2e1afc2dab594390ca673e0881289b16a384a732a724dc",
+  "verifyTokenExpire": {
+    "$date": "2025-03-03T16:22:07.401Z"
+  }
+},
+{
+  "name": "Yash Hirpara",
+  "role": "user",
+  "phoneNumber": "9426155161",
+  "email": "hirparayash78@gmail.com",
+  "imageUrl": "https://profile-image.com",
+  "organization": "EPS",
+  "isEmailVerified": true,
+  "isPro": false,
+  "password": "$2b$10$DyEQFJhEwzPG409ByLZmnOjjCUnxybVBGdqyQ1ko5cF3an..zaeP2",
+  "loggedinDevices": [
+    {
+      "deviceInfo": {
+        "deviceId": "UKQ1.230924.001",
+        "lastLogin": {
+          "$date": "2025-03-03T18:08:48.005Z"
+        },
+        "deviceName": "RMX3630"
+      },
+      "_id": {
+        "$oid": "67c5f030261c5d9eb34d043f"
+      }
+    }
+  ],
+  "purchasedCourses": [],
+  "posts": [],
+  "bookmarkedQuestions": [],
+  "createdCourses": [],
+  "wishLists": [],
+  "__v": 1,
+  "preferences": {
+    "$oid": "67c5e86a261c5d9eb34d0434"
+  },
+  "verifyToken": "1f67108d4456624538dd1bd57ae4c27c173f0552b926980a17469a097b4c6a36",
+  "verifyTokenExpire": {
+    "$date": "2025-03-03T17:46:15.269Z"
+  }
+},
+{
+  "name": "riddhu",
+  "role": "user",
+  "phoneNumber": "9909906371",
+  "email": "ritasadhwani12@gmail.com",
+  "imageUrl": "https://profile-image.com",
+  "organization": "",
+  "isEmailVerified": true,
+  "isPro": false,
+  "password": "$2b$10$.Q4aQEHVeoI5A9ZP6D5wsOKuOHJhoWXAv7/PaBUpPjEEZJ8FhFjbS",
+  "loggedinDevices": [
+    {
+      "deviceInfo": {
+        "deviceId": "UKQ1.230924.001",
+        "lastLogin": {
+          "$date": "2025-03-07T10:34:37.806Z"
+        },
+        "deviceName": "RMX3785"
+      },
+      "_id": {
+        "$oid": "67cacbbd5ded2b451e1f06a0"
+      }
+    }
+  ],
+  "purchasedCourses": [],
+  "posts": [],
+  "bookmarkedQuestions": [],
+  "createdCourses": [],
+  "wishLists": [],
+  "__v": 1,
+  "preferences": {
+    "$oid": "67cacb4c5ded2b451e1f0691"
+  }
+},
+{
+  "name": "Divyanshu Pal",
+  "role": "user",
+  "phoneNumber": "+916387811379",
+  "email": "ilovekhastekachori@gmail.com",
+  "imageUrl": "https://profile-image.com",
+  "organization": "",
+  "isEmailVerified": true,
+  "isPro": true,
+  "password": "$2b$10$8r8Srs3VVDee8CRCou1RrOYuXyTZ8DB2N40H0tJY3BCU0aKmGH6Ha",
+  "loggedinDevices": [
+    {
+      "deviceInfo": {
+        "deviceId": "1234567890",
+        "lastLogin": {
+          "$date": "2025-06-24T15:54:22.053Z"
+        },
+        "deviceName": "TestDevice1"
+      },
+      "_id": {
+        "$oid": "685aca2ed3027425e84f9730"
+      }
+    }
+  ],
+  "purchasedCourses": [
+    {
+      "course": {
+        "$oid": "675fb00d4175d32f6a126e2b"
+      },
+      "purchasedAt": {
+        "$date": "2025-04-10T17:20:18.660Z"
+      },
+      "validTill": {
+        "$date": "2026-04-10T17:20:18.659Z"
+      },
+      "_id": {
+        "$oid": "67f7fdd26f3b4a5517e49ec6"
+      }
+    },
+    {
+      "course": {
+        "$oid": "67a1ce32b21c5736f261dbb2"
+      },
+      "purchasedAt": {
+        "$date": "2025-04-10T17:20:18.660Z"
+      },
+      "validTill": {
+        "$date": "2026-04-10T17:20:18.659Z"
+      },
+      "_id": {
+        "$oid": "67f7fdd26f3b4a5517e49ec7"
+      }
+    },
+    {
+      "course": {
+        "$oid": "67b9ce8564bce984b6b74c77"
+      },
+      "purchasedAt": {
+        "$date": "2025-04-10T17:20:18.660Z"
+      },
+      "validTill": {
+        "$date": "2026-04-10T17:20:18.659Z"
+      },
+      "_id": {
+        "$oid": "67f7fdd26f3b4a5517e49ec8"
+      }
+    }
+  ],
+  "posts": [],
+  "bookmarkedQuestions": [],
+  "createdCourses": [],
+  "wishLists": [],
+  "__v": 6,
+  "preferences": {
+    "$oid": "67e52c298a82548b02d27eec"
+  },
+  "isPhoneVerified": false
+},
+{
+  "name": "Niharika Pal",
+  "role": "user",
+  "phoneNumber": "6307942518",
+  "email": "niharikap099@gmail.com",
+  "imageUrl": "https://profile-image.com",
+  "organization": "Mother teresa",
+  "isEmailVerified": false,
+  "isPro": false,
+  "password": "$2b$10$OmYzW9V9JSAkd.AF4Mte2.TnOohhGsZrkbge0bkUXW3Royh0oYqrO",
+  "loggedinDevices": [],
+  "purchasedCourses": [],
+  "posts": [],
+  "bookmarkedQuestions": [],
+  "createdCourses": [],
+  "wishLists": [],
+  "__v": 0,
+  "preferences": {
+    "$oid": "67ebfddcbcb21423b199c1e1"
+  },
+  "verifyToken": "88f8f82b1dd8b9ce7afd57322ff098a9c6cce679d628b840c21c917819347890",
+  "verifyTokenExpire": {
+    "$date": "2025-04-01T15:04:16.605Z"
+  }
+},
+{
+  "name": "Kumar",
+  "role": "user",
+  "phoneNumber": "+919889524500",
+  "email": "ankitgautamlearning@gmail.com",
+  "imageUrl": "https://profile-image.com",
+  "organization": "",
+  "isEmailVerified": true,
+  "isPro": true,
+  "password": "$2b$10$uV/1iUBOZfZUV4IFS6SqMORO1wtlKwtegt3gPedhZk6GVBpvW.Cky",
+  "loggedinDevices": [
+    {
+      "deviceInfo": {
+        "deviceId": "TKQ1.221013.002",
+        "lastLogin": {
+          "$date": "2025-06-06T14:24:32.670Z"
+        },
+        "deviceName": "M2101K6P"
+      },
+      "_id": {
+        "$oid": "6829670d6e3dcf1907d54efd"
+      }
+    }
+  ],
+  "purchasedCourses": [
+    {
+      "course": {
+        "$oid": "675fb00d4175d32f6a126e2b"
+      },
+      "purchasedAt": {
+        "$date": "2025-06-06T14:19:06.277Z"
+      },
+      "validTill": {
+        "$date": "2026-06-06T14:19:06.273Z"
+      },
+      "_id": {
+        "$oid": "6842f8daf46ed6d78ddecda8"
+      }
+    },
+    {
+      "course": {
+        "$oid": "67a1ce32b21c5736f261dbb2"
+      },
+      "purchasedAt": {
+        "$date": "2025-06-06T14:19:06.277Z"
+      },
+      "validTill": {
+        "$date": "2026-06-06T14:19:06.273Z"
+      },
+      "_id": {
+        "$oid": "6842f8daf46ed6d78ddecda9"
+      }
+    },
+    {
+      "course": {
+        "$oid": "67b9ce8564bce984b6b74c77"
+      },
+      "purchasedAt": {
+        "$date": "2025-06-06T14:19:06.277Z"
+      },
+      "validTill": {
+        "$date": "2026-06-06T14:19:06.273Z"
+      },
+      "_id": {
+        "$oid": "6842f8daf46ed6d78ddecdaa"
+      }
+    }
+  ],
+  "posts": [],
+  "bookmarkedQuestions": [],
+  "createdCourses": [],
+  "wishLists": [],
+  "__v": 2,
+  "preferences": {
+    "$oid": "682966d96e3dcf1907d54ef6"
+  },
+  "isPhoneVerified": false
+},
+{
+  "name": "Nitin",
+  "role": "user",
+  "phoneNumber": "7302825162",
+  "email": "nitinkoberoii@gmail.com",
+  "imageUrl": "https://profile-image.com",
+  "organization": "",
+  "isEmailVerified": true,
+  "isPro": false,
+  "password": "$2b$10$GtnHuK5HrYQltheJWUYFAOWCCNsHDnhSxDeHfN5Ir5vk4dA2vtEeS",
+  "loggedinDevices": [
+    {
+      "deviceInfo": {
+        "deviceId": "SP1A.210812.016",
+        "lastLogin": {
+          "$date": "2025-05-18T05:26:24.070Z"
+        },
+        "deviceName": "RMX3085"
+      },
+      "_id": {
+        "$oid": "68296f806e3dcf1907d560e1"
+      }
+    }
+  ],
+  "purchasedCourses": [],
+  "posts": [],
+  "bookmarkedQuestions": [],
+  "createdCourses": [],
+  "wishLists": [],
+  "__v": 1,
+  "preferences": {
+    "$oid": "68296f396e3dcf1907d560d9"
+  },
+  "isPhoneVerified": true
+},
+{
+  "name": "Prajwal Badole",
+  "role": "user",
+  "phoneNumber": "+919765768312",
+  "email": "prajwalbadole4@gmail.com",
+  "imageUrl": "https://profile-image.com",
+  "organization": "Ramkrishna junior college ",
+  "isEmailVerified": true,
+  "isPro": false,
+  "password": "$2b$10$WbVcaVsHJ8idS8t2QSSNv.xgerwhx3BiaQo6fXTEgJs/Cn0CxohgC",
+  "loggedinDevices": [
+    {
+      "deviceInfo": {
+        "deviceId": "AP3A.240905.015.A2",
+        "lastLogin": {
+          "$date": "2025-05-21T08:38:05.361Z"
+        },
+        "deviceName": "V2334"
+      },
+      "_id": {
+        "$oid": "682d90ed3f8e1018117c5a69"
+      }
+    }
+  ],
+  "purchasedCourses": [],
+  "posts": [],
+  "bookmarkedQuestions": [],
+  "createdCourses": [],
+  "wishLists": [],
+  "__v": 1,
+  "preferences": {
+    "$oid": "682d90a13f8e1018117c5a62"
+  }
+},
+{
+  "name": "Vraj Malaviya",
+  "role": "user",
+  "phoneNumber": "+918238401712",
+  "email": "vrajmalaviya666@gmail.com",
+  "imageUrl": "https://profile-image.com",
+  "organization": "AVPTI",
+  "isEmailVerified": true,
+  "isPro": false,
+  "password": "$2b$10$gfU1dd5HKNdAXYYYL.CAF.HCL1bFKle3Kn0mqOI2x2GRAo.mi5nOG",
+  "loggedinDevices": [
+    {
+      "deviceInfo": {
+        "deviceId": "AP3A.240905.015.A2",
+        "lastLogin": {
+          "$date": "2025-05-24T11:07:33.539Z"
+        },
+        "deviceName": "2312DRAABI"
+      },
+      "_id": {
+        "$oid": "6831a85bfe77d2115aa0744a"
+      }
+    }
+  ],
+  "purchasedCourses": [],
+  "posts": [],
+  "bookmarkedQuestions": [],
+  "createdCourses": [],
+  "wishLists": [],
+  "__v": 1,
+  "preferences": {
+    "$oid": "6831a814fe77d2115aa0743d"
+  }
+},
+{
+  "role": "user",
+  "phoneNumber": "7845126598",
+  "isPhoneVerified": true,
+  "email": "phone7845126598@placeholder.com",
+  "isEmailVerified": false,
+  "isPro": false,
+  "loggedinDevices": [],
+  "purchasedCourses": [],
+  "posts": [],
+  "bookmarkedQuestions": [],
+  "createdCourses": [],
+  "wishLists": [],
+  "__v": 0,
+  "preferences": {
+    "$oid": "6842dcf52015884b0fa9883f"
+  }
+},
+{
+  "role": "user",
+  "phoneNumber": "9865321278",
+  "isPhoneVerified": true,
+  "email": "phone9865321278@placeholder.com",
+  "isEmailVerified": false,
+  "isPro": false,
+  "loggedinDevices": [],
+  "purchasedCourses": [],
+  "posts": [],
+  "bookmarkedQuestions": [],
+  "createdCourses": [],
+  "wishLists": [],
+  "__v": 0,
+  "preferences": {
+    "$oid": "6842dd0e2015884b0fa98845"
+  }
+},
+{
+  "role": "user",
+  "phoneNumber": "6532124578",
+  "isPhoneVerified": true,
+  "email": "phone6532124578@placeholder.com",
+  "isEmailVerified": false,
+  "isPro": false,
+  "loggedinDevices": [],
+  "purchasedCourses": [],
+  "posts": [],
+  "bookmarkedQuestions": [],
+  "createdCourses": [],
+  "wishLists": [],
+  "__v": 0,
+  "preferences": {
+    "$oid": "6842dd20f46ed6d78ddec0bd"
+  }
+},
+{
+  "role": "user",
+  "phoneNumber": "9562316497",
+  "phoneOtp": "0000",
+  "phoneOtpExpire": {
+    "$date": "2025-06-06T12:32:31.661Z"
+  },
+  "isPhoneVerified": false,
+  "email": "phone9562316497@placeholder.com",
+  "isEmailVerified": false,
+  "isPro": false,
+  "loggedinDevices": [],
+  "purchasedCourses": [],
+  "posts": [],
+  "bookmarkedQuestions": [],
+  "createdCourses": [],
+  "wishLists": [],
+  "__v": 0,
+  "preferences": {
+    "$oid": "6842dd87f46ed6d78ddec0cb"
+  }
+},
+{
+  "role": "user",
+  "phoneNumber": "6231548795",
+  "isPhoneVerified": true,
+  "email": "phone6231548795@placeholder.com",
+  "isEmailVerified": false,
+  "isPro": false,
+  "loggedinDevices": [],
+  "purchasedCourses": [],
+  "posts": [],
+  "bookmarkedQuestions": [],
+  "createdCourses": [],
+  "wishLists": [],
+  "__v": 0,
+  "preferences": {
+    "$oid": "6842dd98f46ed6d78ddec0d1"
+  }
+},
+{
+  "role": "user",
+  "phoneNumber": "7007018421",
+  "isPhoneVerified": true,
+  "email": "phone7007018421@placeholder.com",
+  "isEmailVerified": false,
+  "isPro": false,
+  "loggedinDevices": [],
+  "purchasedCourses": [],
+  "posts": [],
+  "bookmarkedQuestions": [],
+  "createdCourses": [],
+  "wishLists": [],
+  "__v": 0,
+  "preferences": {
+    "$oid": "6842dde1f46ed6d78ddec0da"
+  }
+},
+{
+  "role": "user",
+  "phoneNumber": "6387811379",
+  "isPhoneVerified": true,
+  "email": "phone6387811379@placeholder.com",
+  "isEmailVerified": false,
+  "isPro": false,
+  "loggedinDevices": [],
+  "purchasedCourses": [],
+  "posts": [],
+  "bookmarkedQuestions": [],
+  "createdCourses": [],
+  "wishLists": [],
+  "__v": 0,
+  "preferences": {
+    "$oid": "6842df4ef46ed6d78ddec0e4"
+  }
+},
+{
+  "role": "user",
+  "phoneNumber": "6387811378",
+  "isPhoneVerified": true,
+  "email": "phone6387811378@placeholder.com",
+  "isEmailVerified": false,
+  "isPro": false,
+  "loggedinDevices": [],
+  "purchasedCourses": [],
+  "posts": [],
+  "bookmarkedQuestions": [],
+  "createdCourses": [],
+  "wishLists": [],
+  "__v": 0,
+  "preferences": {
+    "$oid": "6842e610f46ed6d78ddec0ec"
+  }
+},
+{
+  "role": "user",
+  "phoneNumber": "9897656753",
+  "isPhoneVerified": true,
+  "email": "phone9897656753@placeholder.com",
+  "isEmailVerified": false,
+  "isPro": false,
+  "loggedinDevices": [],
+  "purchasedCourses": [],
+  "posts": [],
+  "bookmarkedQuestions": [],
+  "createdCourses": [
+    {
+      "course": {
+        "$oid": "68487d30c40c0bca324bc4e9"
+      },
+      "_id": {
+        "$oid": "68487d31c40c0bca324bc4ec"
+      }
+    },
+    {
+      "course": {
+        "$oid": "6849f249575933862fb9c848"
+      },
+      "_id": {
+        "$oid": "6849f249575933862fb9c84c"
+      }
+    },
+    {
+      "course": {
+        "$oid": "6849f3a9cf780e7688bc763c"
+      },
+      "_id": {
+        "$oid": "6849f3a9cf780e7688bc7641"
+      }
+    },
+    {
+      "course": {
+        "$oid": "6849f45ccf780e7688bc7ca1"
+      },
+      "_id": {
+        "$oid": "6849f45ccf780e7688bc7ca7"
+      }
+    }
+  ],
+  "wishLists": [],
+  "__v": 4,
+  "preferences": {
+    "$oid": "68487b1ba9ebc551b47a8c9d"
+  }
+},
+{
+  "role": "user",
+  "phoneNumber": "7427864103",
+  "isPhoneVerified": true,
+  "email": "phone7427864103@placeholder.com",
+  "isEmailVerified": false,
+  "isPro": false,
+  "loggedinDevices": [],
+  "purchasedCourses": [],
+  "posts": [],
+  "bookmarkedQuestions": [],
+  "createdCourses": [],
+  "wishLists": [],
+  "__v": 0,
+  "preferences": {
+    "$oid": "684faa546922f40ccee7cadc"
+  }
+},
+{
+  "role": "user",
+  "phoneNumber": "9897656763",
+  "phoneOtp": "0000",
+  "phoneOtpExpire": {
+    "$date": "2025-06-20T11:55:59.535Z"
+  },
+  "isPhoneVerified": false,
+  "email": "phone9897656763@placeholder.com",
+  "isEmailVerified": false,
+  "isPro": false,
+  "loggedinDevices": [],
+  "purchasedCourses": [],
+  "posts": [],
+  "bookmarkedQuestions": [],
+  "createdCourses": [],
+  "wishLists": [],
+  "__v": 0,
+  "preferences": {
+    "$oid": "685549f7e00ea30450dbbaba"
+  }
+},
+{
+  "role": "user",
+  "phoneNumber": "9897656762",
+  "isPhoneVerified": true,
+  "email": "phone9897656762@placeholder.com",
+  "isEmailVerified": false,
+  "isPro": false,
+  "loggedinDevices": [],
+  "purchasedCourses": [],
+  "posts": [],
+  "bookmarkedQuestions": [],
+  "createdCourses": [],
+  "wishLists": [],
+  "__v": 0,
+  "preferences": {
+    "$oid": "6855bc98e3aed03152bde09a"
+  }
+},
+{
+  "role": "user",
+  "phoneNumber": "9897656782",
+  "phoneOtp": "0000",
+  "phoneOtpExpire": {
+    "$date": "2025-06-21T17:44:04.087Z"
+  },
+  "isPhoneVerified": false,
+  "email": "phone9897656782@placeholder.com",
+  "isEmailVerified": false,
+  "isPro": false,
+  "loggedinDevices": [],
+  "purchasedCourses": [],
+  "posts": [],
+  "bookmarkedQuestions": [],
+  "createdCourses": [],
+  "wishLists": [],
+  "__v": 0,
+  "preferences": {
+    "$oid": "6856ed0cd764cc6a3ac8eeb5"
+  }
+},
+{
+  "role": "user",
+  "phoneNumber": "9895656782",
+  "phoneOtp": "0000",
+  "phoneOtpExpire": {
+    "$date": "2025-06-23T12:32:00.361Z"
+  },
+  "isPhoneVerified": false,
+  "email": "phone9895656782@placeholder.com",
+  "isEmailVerified": false,
+  "isPro": false,
+  "loggedinDevices": [],
+  "purchasedCourses": [],
+  "posts": [],
+  "bookmarkedQuestions": [],
+  "createdCourses": [],
+  "wishLists": [],
+  "__v": 0,
+  "preferences": {
+    "$oid": "685946e8b67d6a6ed3cb7ee1"
+  }
+},
+{
+  "role": "user",
+  "phoneNumber": "9795655782",
+  "isPhoneVerified": true,
+  "email": "phone9795655782@placeholder.com",
+  "isEmailVerified": false,
+  "isPro": false,
+  "loggedinDevices": [],
+  "purchasedCourses": [],
+  "posts": [],
+  "bookmarkedQuestions": [],
+  "createdCourses": [],
+  "wishLists": [],
+  "__v": 0,
+  "preferences": {
+    "$oid": "685aaab4b7f69c915dddd068"
+  }
+},
+{
+  "name": "Sanskar Koserwal",
+  "role": "user",
+  "phoneNumber": "9424437103",
+  "isPhoneVerified": false,
+  "email": "sanskar.008@gmail.com",
+  "imageUrl": "url",
+  "isEmailVerified": false,
+  "isPro": false,
+  "password": "$2b$10$1a3WOiSySCg8ASS5jxOSTeFvYSm.R.g1/q1MNI1TYmvyPpq/w6zii",
+  "loggedinDevices": [],
+  "purchasedCourses": [],
+  "posts": [],
+  "bookmarkedQuestions": [],
+  "createdCourses": [],
+  "wishLists": [],
+  "__v": 0,
+  "preferences": {
+    "$oid": "685fb16a838516d2869300e8"
+  },
+  "verifyToken": "9995dcfd98c9d39540d409c0c1a4ab6f02de09bce17ea693f47bad610342e814",
+  "verifyTokenExpire": {
+    "$date": "2025-06-28T09:20:02.485Z"
+  }
+},
+{
+  "name": "Sanskar Koserwal",
+  "role": "user",
+  "phoneNumber": "9424437103",
+  "isPhoneVerified": false,
+  "email": "sanskark008@gmail.com",
+  "imageUrl": "url",
+  "isEmailVerified": true,
+  "isPro": false,
+  "password": "$2b$10$8tU3n8NXYE3bshA/ncOjze1FqfQ857i6.648T.8pFPVopuaWdCF3e",
+  "loggedinDevices": [
+    {
+      "deviceInfo": {
+        "deviceId": "1234567890",
+        "lastLogin": {
+          "$date": "2025-06-28T09:36:19.631Z"
+        },
+        "deviceName": "TestDevice1"
+      },
+      "_id": {
+        "$oid": "685fb1c9838516d2869300f6"
+      }
+    }
+  ],
+  "purchasedCourses": [],
+  "posts": [],
+  "bookmarkedQuestions": [],
+  "createdCourses": [],
+  "wishLists": [],
+  "__v": 1,
+  "preferences": {
+    "$oid": "685fb18b838516d2869300ef"
+  }
+}]
